@@ -7,28 +7,43 @@
 
  }
 
+ #header, .nav a, #hero, #cta{
+            color:white;
+ } 
+
+ 
+
  #header{
     background-color: #39304A;
-    color:white;
     height: 60px;
  }
 
-  .nav a {
-    color: white;
+ a:hover {
+  text-decoration:underline;
+
+ }
+
+ a {
     text-decoration: none;
   }
 
 
-  #hero{
-    font-size: 22px;
-    color: white;
+  #hero {
+    font-size:22px;
   }
+  
 
   #hero h1{
     font-size: 80px;
   }
 
   #cta {
-    background-color: #FF3C38;
-    color: white;
+    background-color:purple;
+    
   }
+
+  #cta:hover {
+    background-color:blueviolet;
+}
+
+  
